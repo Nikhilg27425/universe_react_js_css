@@ -1,0 +1,91 @@
+.heroe{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 700px;
+    border-bottom: 2px solid blue;
+    width: 100vw;
+    /* padding-bottom: 20px; */
+}
+
+
+.home {
+    height: 400px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    color: white;
+    margin-left: 60px;
+    margin-top: -30px;
+}
+
+.home h1 {
+    font-weight: 900;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 80px;
+    text-align: center;
+}
+
+.home-btn {
+    height: 60px;
+    width: 120px;
+    background: linear-gradient(315deg, #CD1013 1.19%, #FF0004 1.5%, #2500FF 94.46%);
+    margin-top: 20px;
+    border: 2px solid blue;
+    border-radius: 30px;
+}
+
+.planet1{
+    height: 120px;
+    margin-top: 50px;
+}
+
+.planet2{
+    height: 400px;
+}
+
+.planet3{
+    height: 150px;
+    margin-bottom: 24px;
+}
+
+.planet4{
+    height: 370px;
+    margin-left: 150px;
+    margin-top: 70px;
+}
+
+.planet5{
+    height: 300px;
+    margin-bottom: 41px;
+}
+
+.planet_mid{
+    margin-bottom: -1500px;
+}
+
+
+@media (max-width:1200px) {
+    .left_planets{
+        display: none;
+    }
+    .right_planets{
+        display: none;
+    }
+    .planet_mid{
+        display: none;
+    }
+    .home{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .heroe{
+        margin-bottom: 0px;
+        border-bottom: none;
+    }
+}

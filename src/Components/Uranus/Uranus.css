@@ -1,0 +1,121 @@
+.uranus_left_content{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right:80px;
+    margin-top: -30px;
+}
+
+
+.uranus_content{
+    color: white;
+    height: 200px;
+    width: 600px;
+    padding-top: 50px;
+    padding-left: -50px;
+}
+
+.uranus_header{
+    font-weight: bold;
+    font-size: 60px;
+    font-family: Orbitron;
+    padding-left: 65px;
+    
+}
+
+.uranus_para{
+    padding-left: 70px;
+    padding-top: 20px;
+}
+
+.uranus_header:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color:rgb(68, 180, 224) ;
+}
+
+.uranus_para:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color:rgb(18, 150, 202) ;
+}
+
+.uranus-boxes{
+    height: 440px;
+    width: 750px;
+    flex-wrap: wrap-reverse;
+    display: flex;
+    justify-content: space-between;
+    margin-right: -50px;
+    margin-top: -180px;
+}
+  
+.uranus_mini_box {
+    background: linear-gradient(135deg, #2a0845 0%, #6441a5 100%); 
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 350px;
+    height: 180px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+  
+.uranus_mini_box:hover{
+    border: 4px solid white;
+    box-shadow: 10px 10px 5px 2px rgba(39, 7, 197, 0.5), -10px -10px 5px 2px rgba(39, 7, 197, 0.5);
+}
+  
+  
+.donut-image {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+  
+.uranus_text_content {
+    text-align: left;
+    color: #ffffff;
+}
+  
+.uranus_box_label {
+    font-size: 14px;
+    opacity: 0.8;
+}
+  
+.uranus_box_value {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: Orbitron;
+}
+  
+.uranus_box_unit {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: Orbitron;
+}
+
+
+.uranus_img{
+    height: 450px;
+    padding-left: 280px;
+    margin-top:30px;
+}
+
+@media(max-width:1200px){
+    .uranus-boxes{
+        display: none;
+    }
+    .uranus_header{
+        padding-left: 5px;
+        
+    }
+    
+    .uranus_para{
+        padding-left: 5px;
+    }
+
+    .uranus_left_content{
+        margin-top: -200px;
+    }
+}

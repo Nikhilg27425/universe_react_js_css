@@ -1,0 +1,52 @@
+
+.components {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 30px;
+    width: 1200px;
+    margin-top: 15px;
+    color: white;
+    margin-left:  150px;
+}
+
+.logo {
+    padding-top: 3px;
+    height: 40px;
+    width: 350px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list a {
+    padding-right: 25px;
+    padding-left: 25px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.list a:hover {
+    cursor: pointer;
+    color: red;
+    text-decoration: underline;
+}
+
+
+@media (max-width:1200px) {
+    .list{
+        display: none;
+    }
+    .components{
+        margin-bottom: 120px;
+    }
+    .logo{
+        margin-left: -250px;
+    }
+    .description{
+        padding-right: 150px;
+    }
+}
